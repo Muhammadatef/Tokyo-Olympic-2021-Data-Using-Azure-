@@ -1,61 +1,64 @@
-# Tokyo-Olympic-2021-Data-Using-Azure-
-Tokyo Olympic Data 2021 Using Microsoft Azure cloud services
+# Olympic Data Analysis on Azure
 
+The Tokyo Olympic Data Analysis on Azure project is a comprehensive solution for analyzing and visualizing Olympic Games data using various Azure services. This project aims to showcase how to leverage the power of cloud computing and Azure's data services to gain insights from historical Olympic data. By combining Azure Databricks, Azure Data Factory, and other Azure resources, this project provides a scalable and efficient way to process, transform, and analyze large volumes of Olympic data.
 
-## The Tokyo Olympic Data Analysis on Azure project is a comprehensive solution for analyzing and visualizing Olympic Games data using various Azure services. This project aims to showcase how to leverage the power of cloud computing and Azure's data services to gain insights from historical Olympic data. By combining Azure Databricks, Azure Data Factory, and other Azure resources, this project provides a scalable and efficient way to process, transform, and analyze large volumes of Olympic data.
 ## Table of Contents
 
-    ### Introduction
-    ### Architecture
-    ### Technologies Used
-    ### Getting Started
-       ## Prerequisites
-    Data Ingestion
-    Data Processing
-    Conclusion
+- [Introduction](#introduction)
+- [Architecture](#architecture)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+- [Data Ingestion](#data-ingestion)
+- [Data Processing](#data-processing)
+- [Conclusion](#conclusion)
 
-Introduction
+## Introduction
 
 The Olympic Data Analysis on Azure project demonstrates how to build an end-to-end data analysis pipeline on the Azure cloud platform. This involves ingesting raw Olympic data, transforming it into a suitable format, performing analysis, and creating insightful visualizations. The project provides an example of how to integrate and utilize Azure Databricks, Azure Data Factory, and other Azure services to achieve these goals.
-Architecture
 
-Architecture
+## Architecture
+
+### Architecture Components
 
 The architecture of the project consists of the following components:
 
-    Azure Databricks: Used for data processing, transformation, and analysis. It provides a collaborative and interactive environment for running Spark-based jobs.
+- **Azure Databricks**: Used for data processing, transformation, and analysis. It provides a collaborative and interactive environment for running Spark-based jobs.
 
-    Azure Data Factory: Manages and orchestrates the data workflow. It is responsible for data ingestion from various sources, data transformation, and scheduling of jobs.
+- **Azure Data Factory**: Manages and orchestrates the data workflow. It is responsible for data ingestion from various sources, data transformation, and scheduling of jobs.
 
-    Azure Storage: Serves as the data lake for storing raw and processed data. It can also host intermediate results generated during the analysis.
+- **Azure Storage**: Serves as the data lake for storing raw and processed data. It can also host intermediate results generated during the analysis.
 
-    Azure SQL Database: Stores the cleaned and transformed data, making it accessible for visualization and reporting.
+- **Azure SQL Database**: Stores the cleaned and transformed data, making it accessible for visualization and reporting.
 
-    Power BI: Connects to the Azure SQL Database to create interactive and visually appealing dashboards for data exploration.
+- **Power BI**: Connects to the Azure SQL Database to create interactive and visually appealing dashboards for data exploration.
 
-Technologies Used
+## Technologies Used
 
-    Azure Databricks
-    Azure Data Factory
-    Azure Storage
-    Azure SQL Database
-    Azure Synapse Analytics
+- Azure Databricks
+- Azure Data Factory
+- Azure Storage
+- Azure SQL Database
+- Azure Synapse Analytics
 
-Resource Group
-Getting Started
-Prerequisites
+## Getting Started
 
-    Azure subscription
-    Azure Databricks workspace
-    Azure Data Factory instance
+### Prerequisites
 
-Data Ingestion
+Before you begin, make sure you have the following prerequisites:
 
-DataFactory
-Data Processing
+- Azure subscription
+- Azure Databricks workspace
+- Azure Data Factory instance
 
-Databricks
+## Data Ingestion
 
-The data processing stage involves cleaning and transforming raw Olympic data into a structured format suitable for analysis. This step takes advantage of Azure Databricks' distributed computing capabilities for efficient processing.
-Conclusion
+*DataFactory*: Explain how data is ingested here.
+
+## Data Processing
+
+*Databricks*: Explain the data processing stage and how raw Olympic data is cleaned and transformed into a structured format suitable for analysis. Mention Azure Databricks' distributed computing capabilities for efficient processing.
+
+## Conclusion
+
 The Olympic Data Analysis on Azure project demonstrates how to leverage Azure services for processing, analyzing, and visualizing large-scale data. By following the setup and guides provided in this repository, you can adapt the project to other domains and expand its functionalities. Happy analyzing!
